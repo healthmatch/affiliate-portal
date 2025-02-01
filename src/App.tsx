@@ -9,6 +9,7 @@ import Reporting from './pages/Reporting';
 import Settings from './pages/Settings';
 import Layout from './components/Layout';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
+import AffiliateLanding from './pages/AffiliateLanding';
 
 function PrivateRoute({ children }: { children: React.ReactNode }) {
   const { user } = useAuth();
@@ -21,6 +22,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/login" element={<Login />} />
+          <Route path="/affiliate-landing" element={<AffiliateLanding />} />
           <Route
             path="/"
             element={
