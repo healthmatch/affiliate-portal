@@ -10,8 +10,8 @@ const quickActions = [
     icon: MonitorPlay,
   },
   {
-    name: 'API Configuration',
-    description: 'View API documentation and settings',
+    name: 'API Explorer',
+    description: 'Explore and test the API endpoints',
     href: '/api-config',
     icon: Terminal,
   },

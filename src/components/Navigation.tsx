@@ -5,7 +5,7 @@ import { LayoutDashboard, MonitorPlay, Settings, Terminal, BarChart3 } from 'luc
 const navigation = [
   { name: 'Dashboard', href: '/', icon: LayoutDashboard },
   { name: 'Landing Pages', href: '/landing-pages', icon: MonitorPlay },
-  { name: 'API Config', href: '/api-config', icon: Terminal },
+  { name: 'API Explorer', href: '/api-config', icon: Terminal },
   { name: 'Reporting', href: '/reporting', icon: BarChart3 },
   { name: 'Settings', href: '/settings', icon: Settings },
 ];

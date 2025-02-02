@@ -1,10 +1,17 @@
-import React from 'react';
+
 
 export default function ApiConfig() {
   return (
     <div className="p-6">
-      <h1 className="text-2xl font-bold mb-4">API Configuration</h1>
-      <p className="text-gray-600">Configure your API settings and view documentation.</p>
+      <h1 className="text-2xl font-bold mb-4">API Explorer</h1>
+      <div className="w-full h-[calc(100vh-12rem)] rounded-lg overflow-hidden border border-gray-200">
+        <iframe
+          src="http://localhost:4000"
+          className="w-full h-full"
+          title="API Explorer"
+          frameBorder="0"
+        />
+      </div>
     </div>
   );
 }
